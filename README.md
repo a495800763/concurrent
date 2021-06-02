@@ -16,3 +16,10 @@
 
 ## 2020.06.01
 ### 集合类不安全
+
+### 常用的辅助类
+1 CountDownLatch  
+2 CyclicBarrier  
+3 Semaphore
+
+
