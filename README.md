@@ -22,4 +22,6 @@
 2 CyclicBarrier  
 3 Semaphore
 
+|a|b|c||
+
 
