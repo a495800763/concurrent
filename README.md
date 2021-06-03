@@ -22,6 +22,11 @@
 2 CyclicBarrier  
 3 Semaphore
 
-|a|b|c||
+### 四种拒绝策略
+1 AbortPolicy// 不处理 抛出异常  
+2 CallerRunsPolicy// 哪来的回哪去，被创建线程的父线程执行  
+3 DiscardPolicy // 丢掉任务， 不抛出异常  
+3 DiscardOldestPolicy // 尝试与最早的线程竞争，也不会抛出异常
+
 
 
