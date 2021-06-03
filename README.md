@@ -22,11 +22,15 @@
 2 CyclicBarrier  
 3 Semaphore
 
+## 2020.06.03 线程池
+
 ### 四种拒绝策略
 1 AbortPolicy// 不处理 抛出异常  
 2 CallerRunsPolicy// 哪来的回哪去，被创建线程的父线程执行  
 3 DiscardPolicy // 丢掉任务， 不抛出异常  
 3 DiscardOldestPolicy // 尝试与最早的线程竞争，也不会抛出异常
 
-
+#### 最大线程应该如何设置
+1 CPU密集型：CPU几核心就是几，可以保持CPU 的效率最高  
+2 IO 密集型：判断程序中十分耗IO 的线程有几个，设置成其两倍
 
