@@ -4,7 +4,7 @@ import java.util.function.Predicate;
 
 /**
  * 谓词函数式接口 demo
- * 有一个输入参数，返回一个对参数的判断 boolean类型
+ * 有一个输入参数，返回一个对参数的判断 boolean类型 
  */
 public class PredicateDemo {
     public static void main(String[] args) {
